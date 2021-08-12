@@ -11,7 +11,7 @@ const LoadData= () => {
     const [details,setDetails]=useState({});
     const [count, setCount] =useState(1);
 
-    const API_KEY ="1905de9b24cc4e32ac89c7af3f8caff2";
+    const API_KEY ="---";
     const url_address=`https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
     const fetchData= async () => {
         
